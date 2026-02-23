@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO — Edit in data.js instead -->
+  <title>Priyabrata Behera | Java & Spring Boot Developer</title>
+  <meta name="description" content="Priyabrata Behera — Java and Spring Boot developer from Odisha, India. Skilled in REST APIs, Hibernate, MySQL, and full-stack web development.">
+  <meta name="keywords" content="Priyabrata Behera, Java Developer, Spring Boot, Odisha, Paradeep, Backend Developer, Portfolio">
+  <meta name="author" content="Priyabrata Behera">
+  <meta property="og:title"       content="Priyabrata Behera | Java Developer">
+  <meta property="og:description" content="Portfolio of Priyabrata Behera — Java & Spring Boot Developer from Odisha.">
+  <meta property="og:type"        content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor"      id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ── Navigation ───────────────────────────────────────────── -->
+<nav>
+  <div class="nav-logo">PB.</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero / About ──────────────────────────────────────────── -->
+<section id="about">
+  <div class="hero">
+    <div class="hero-bg"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag" id="hero-tag">
+        <span><!-- dot injected by CSS --></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name" id="hero-name">
+        <!-- filled by script.js from data.js -->
+      </h1>
+      <p class="hero-desc" id="hero-bio">
+        <!-- filled by script.js -->
+      </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View Projects ↗</a>
+        <a href="#contact"  class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-frame">
+        <img id="hero-photo" src="" alt="" />
+        <div class="photo-badge" id="photo-badge"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Skills ────────────────────────────────────────────────── -->
+<section id="skills">
+  <div class="section-inner">
+    <div class="section-label">What I work with</div>
+    <h2 class="section-title">Technical Skills</h2>
+    <!-- Cards injected here by script.js -->
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+
+<!-- ── Projects ──────────────────────────────────────────────── -->
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-label">What I've built</div>
+    <h2 class="section-title">Projects</h2>
+    <!-- Cards injected here by script.js -->
+    <div class="projects-grid" id="projects-grid"></div>
+  </div>
+</section>
+
+<!-- ── Education ─────────────────────────────────────────────── -->
+<section id="education">
+  <div class="section-inner">
+    <div class="section-label">Academic background</div>
+    <h2 class="section-title">Education</h2>
+    <!-- Cards injected here by script.js -->
+    <div class="edu-timeline" id="edu-timeline"></div>
+  </div>
+</section>
+
+<!-- ── Contact ───────────────────────────────────────────────── -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+
+      <div class="contact-cta reveal">
+        <div class="section-label">Let's connect</div>
+        <h3>Ready to build something great together?</h3>
+        <p>I'm actively looking for opportunities where I can contribute, grow, and continue developing my skills in Java and Spring Boot development.</p>
+        <a id="contact-email-btn" href="#" class="btn btn-primary">Send a Message →</a>
+      </div>
+
+      <!-- Contact items injected here by script.js -->
+      <div class="contact-info reveal" id="contact-info"></div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ────────────────────────────────────────────────── -->
+<footer>
+  <div id="footer-name"></div>
+  <div>Built with passion &amp; code ♥</div>
+</footer>
+
+<!-- Scripts — data.js must load before script.js -->
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
